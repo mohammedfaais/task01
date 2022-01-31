@@ -442,4 +442,17 @@ ul {
   .link-list {
     padding-left: 40px;
   }
+
+  .sec-3-content {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  .search-input {
+    display: none;
+  }
+  .link-list {
+    padding-left: 0;
+  }
 }
