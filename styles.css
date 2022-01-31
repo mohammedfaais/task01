@@ -180,9 +180,13 @@ body {
 
 .sec-2 {
   display: flex;
+
   align-items: center;
   gap: 40px;
-  padding: 100px;
+  /* padding: 100px; */
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .sec-2-img {
@@ -192,16 +196,13 @@ body {
 .sec-2-para {
   line-height: 1.5;
   font-size: 16px;
+  margin: 30px;
+  padding-left: 15px;
 }
 
 .sec-2-heading {
   text-align: center;
   margin-top: 15px;
-}
-
-.sec-2-para {
-  margin: 30px;
-  padding: 7px;
 }
 
 .sec-2-btn {
@@ -248,8 +249,10 @@ body {
 
 .sec-3-content {
   display: flex;
-  padding: 15px 100px;
-  margin-left: 50px;
+  /* padding: 15px 100px; */
+  /* margin-right: ; */
+  margin-left: 120px;
+  margin-top: 40px;
 }
 
 .content-item > h3 {
@@ -261,14 +264,15 @@ body {
 .content-item > p {
   margin-bottom: 20px;
   line-height: 1.4;
-  padding-right: 20px;
+  padding-right: 30px;
 }
 
 .content-item > button {
   margin-bottom: 20px;
 }
 .sec-3-head {
-  padding: 30px 130px;
+  /* padding: 30px 130px; */
+  margin-left: 100px;
   font-weight: lighter;
 }
 
@@ -356,10 +360,26 @@ ul {
     padding: 20px;
   }
 
+  .arrow-icon {
+    margin-left: 0px;
+  }
+
   .sec-2 {
     display: flex;
-    gap: 0px;
-    padding: 60px;
+    gap: 5px;
+    padding: 0px;
+  }
+
+  .sec-2-para {
+    margin: 10px;
+    /* margin: 0 0px 0px 20px; */
+    /* margin: 0px; */
+    /* padding: 15px 7px 15px 20px; */
+  }
+
+  .sec-3-head {
+    /* padding: 30px 50px; */
+    margin: 10px 0px 0px 80px;
   }
 
   .btn {
@@ -388,7 +408,10 @@ ul {
   .sec-2 {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    margin-left: 0;
+    /* align-items: center;
+    justify-content: center;
+    gap: 20px; */
   }
 
   .health,
@@ -417,14 +440,16 @@ ul {
     margin-bottom: 10px;
   }
   .sec-2-img {
-    width: 40%;
+    width: 30%;
+    margin-top: 10px;
   }
   .sec-2-para {
     padding: 0px;
   }
 
   .sec-3-head {
-    padding: 10px 0px 0px 20px;
+    padding: 0px;
+    margin-left: 30px;
     font-weight: bold;
   }
 
@@ -432,19 +457,15 @@ ul {
     font-size: 16px;
   }
 
-  .content-item > p {
+  /* .content-item > p {
     padding-right: 0px;
-  }
+  } */
   .footer-content {
     padding: 30px 20px;
   }
 
   .link-list {
     padding-left: 40px;
-  }
-
-  .sec-3-content {
-    margin-left: 0;
   }
 }
 
@@ -454,5 +475,21 @@ ul {
   }
   .link-list {
     padding-left: 0;
+  }
+  .search-icon {
+    display: none;
+    color: white;
+  }
+  .header {
+    padding: 10px;
+  }
+
+  .sec-2-para {
+    text-align: center;
+  }
+
+  .sec-3-content {
+    margin-left: 0px;
+    text-align: center;
   }
 }
