@@ -449,7 +449,8 @@ ul {
 
   .sec-3-head {
     padding: 0px;
-    margin-left: 30px;
+    margin: 0px;
+    text-align: center;
     font-weight: bold;
   }
 
@@ -483,7 +484,6 @@ ul {
   .header {
     padding: 10px;
   }
-
   .sec-2-para {
     text-align: center;
   }
